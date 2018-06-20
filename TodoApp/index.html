@@ -1,0 +1,33 @@
+
+<!-- 
+Created By: Harry Almeraz
+Date: 6/13/18
+Desription: A simple todo list incorporating 
+			jQuery, CSS, and HTML
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Todo App</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/TodoApp.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<script type="text/javascript" src="assets/js/lib/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+
+<div id="container">
+	<h1>TO-DO LIST<span id="edit"><i class="fas fa-edit"></i></span></h1>
+	<input type="text" placeholder="Add New Todo">
+	<ul>
+		<li><span id="delete"><i class="far fa-minus-square"></i></span> Go to gym</li>
+		<li><span id="delete"><i class="far fa-minus-square"></i></span> Buy Groceries</li>
+		<li><span id="delete"><i class="far fa-minus-square"></i></span> Read a book</li>
+	</ul>
+</div>
+
+<script src="assets/js/TodoApp.js"></script>
+</body>
+</html>
